@@ -2,6 +2,13 @@
 
 ![test](img/test2.gif)
 
+## 免责声明
+
+1. 本程序由一位 **高一摆烂美术生** 开发( **15周岁未成年** ),若使用者滥用本项目,本人 **无需承担** 任何法律责任.  
+2. 本程序仅供娱乐,源码全部开源,**禁止滥用** 和二次 **贩卖盈利**.  **禁止用于商业用途**.
+3. 本人有 **抑郁症病史**,若本人遭受任何形式的网络暴力(包括但不限于发送淫/秽血/腥图片,问候我家人),并出现 **极端行为**,一切都是 **本人的错** 和大家无关.
+4. 不要在问我 **谈恋爱** 的事情了,我和前男友分手了,不想谈了!!
+
 ## Feature
 
 1. 通过自定义 `api.json` 的方式定义接口.  
@@ -83,7 +90,7 @@ git clone https://github.com/AdminWhaleFall/SMSBoom.git/
 
 **前提条件:** 请确保自己的电脑有 `python3.x` 的环境,推荐使用 `3.8` 及以上!  
 
-有 `Python3.8` 环境的可以使用 `pipenv` 工具.
+方案一: 有 `Python3.8` 环境的可以使用 `pipenv` 工具.
 
 1. 安装 pipenv 包管理工具.  
 ```shell
@@ -102,9 +109,9 @@ pipenv shell # 激活虚拟环境
 python smsboom.py  # linux
 ```
 
-若无报错，输出帮助信息，则说明环境已经正确安装。
+若无报错，输出帮助信息，则说明环境已经正确安装。若报错请使用方案二
 
-只有 `Python3.X` 环境的需要使用原生 `pip` 工具.
+方案二: 只有 `Python3.X` 环境的需要使用原生 `pip` 工具.
 
 1. 安装所需要的库
 ```shell
@@ -219,9 +226,29 @@ Options:
 ![](img/webui-test.png)  
 ![](img/webui-test-2.png)  
 
+## 赞助
+[爱发电🔗](https://afdian.net/@smsboom)  
+
+**微/信 && 支/付宝🔗**  
+<center class="half">
+<img src="https://cdn.jsdelivr.net/gh/AdminWhaleFall/SMSBoom@master/img/wx_pay.jpg" width=40%/>
+<img src="https://cdn.jsdelivr.net/gh/AdminWhaleFall/SMSBoom@master/img/aliyun_pay.jpg" width=40%/>
+</center>
+
+> 赞助的金额将用于我每月治疗 **抑/郁症** 的支出.谢谢大家的支持和鼓励! **比心ing**
+
+<center class="half">
+<img src="img/mypic.png" width=70%/>
+</center>
+
+> ~~丑陋的自拍 )逃~~
+
+## Star ♥ 趋势图
+
+<img src="https://starchart.cc/adminwhalefall/smsboom.svg">
+
 ## 企鹅🐧群
 
 欢迎加入企鹅群提出问题和建议！！！
 
 ![企鹅群 QR](https://cdn.jsdelivr.net/gh/AdminWhaleFall/Pic@master/img/20220409151539.jpg)
-

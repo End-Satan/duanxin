@@ -89,7 +89,6 @@ def req(api: Union[API, str], phone: tuple):
         phone_lst = [_ for _ in phone]
     else:
         phone_lst = [phone]
-
     with httpx.Client(headers=default_header, verify=False) as client:
         for ph in phone_lst:
             try:
@@ -119,7 +118,8 @@ def run(thread: int, phone: Union[str, tuple], interval: int, super: bool = Fals
             _api = load_json()
             _api_get = load_getapi()
         except ValueError:
-            logger.error("接口获取出错!请update更新接口.")
+            logger.error("读取接口出错!正在重新下载接口数据!....")
+            update()
             sys.exit(1)
         i = 0
         if super:
@@ -172,4 +172,5 @@ cli.add_command(update)
 
 
 if __name__ == "__main__":
+    logger.info(f"当前脚本目录:{path}")
     cli()
